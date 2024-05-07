@@ -1,0 +1,34 @@
+Node es un entorno de ejecución de JS orientado a eventos asíncronos.
+Algunas características importantes de Node son que:
+    - Es Open-Source
+    - Multiplataforma
+    - Basado en el motor V8 de Google
+El motor V8 de Google es un motor de JS desarrollado por el Chromium Project para Google Chrome, esto nos brinda un entorno de ejecución (que también nos da Node en la terminal), pero este nos lo da en el navegador (Google Chrome).
+
+Su arquitectura es Cliente - Servidor.
+Ahora bien, para conseguir esta comunicación es a base de protocolos, los protocolos son un conjunto de reglas que permiten que 2 entidades de una red se comuniquen.
+Un ejemplo sería HTTP y HTTPS.
+
+Una página estática es que una vez que la página yta recibió todos los archivos y ya cargó todo el código, ya no e va a actualizar ni nada; mientras que la dinámica si se actualiza dependiendo de la interacción con el ususario. Por ejemplo un blog sería una página estática mientras que Facebook sería una página dinámica.
+
+Node es usado para DESARROLLO BACK-END y para DESARROLLAR APIS.
+
+Node:
+    - NO ES UN LENGUAJE DE PROGRAMACIÓN
+    - NO ES UN FRAMEWORK
+    - NO ES UNA LIBRERÍA
+Node SI ES UN ENTORNO DE EJECUCIÓN DE JS.
+
+INSTALACIÓN DE NODE:
+
+Para su instalación nos dirigiremos a la página oficial de node, una vez ahí podemos elegir entre la versión LTS y la Actual, para este caso se trabajará con la LTS, la cual es una versión estable para Node. Posterior a esto procedemos a instalar NODE, es muy importante mencionar que se tiene que agregrar NODE al PATH, esto lo que hace es que permitirá incluir el comando NODE en la lista de comandos. Una vez finalice esto, todo el proceso de instalación es de lo más común.
+Para comprobar que tenemos NODE instalado y la versión, en windows nos diigimos al command prompt de JS, después de esto escribimos node --version, posterior a esto sale la versión instalada en nuestro equipo.
+
+REPL DE NODE, REPL significa Read, Eval, Print, Loop.
+Para entrar al REPL tenemos que escribir "node" en nuestro command prompt, una vez dentro podemos escribir ".help" para así obtener los comandos posibles.
+
+Si escribimos ".editor" entramos en un modo de codificación en donde escribimos ctrl + D para evaluar el código o ctrl + C para finalizar el código, y básicamente es una manera de evaluar código JS directamente en la terminal.
+
+Podemos salir del REPL escribiendo ".exit" o ctrl + c.
+
+Ahora si procedemos a lo práctico.

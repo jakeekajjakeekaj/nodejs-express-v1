@@ -12,3 +12,7 @@
 // Al realizar esto vemos un archivo .json en la carpeta
 
 // ** COMO DATO INTERESANTE SI QUEREMOS UN ARCHIVO package.json CON TODOS LOS VALORES POR DEFECTO, BASTA CON ESCRIBIR "npm init --yes" Y DE ESTA MANERA SE CREARÁ EL ARCHIVO CON TODOS LOS VALORES POR DEFECTO
+
+// Si tenemos problemas estos son los pasos que realicé para resolverlos:
+// - Si indica que la dirección no corresponde y efectivamente no corresponde, prueba mejor descargando un nvm, el cual a parte de ser una herramienta muy poderosa para manejar diferentes tipos de versiones de Node y Npm, ayudará a que sea lo estable, se instale de manera global y así ya no habrán problemas
+// - Si indica que los scripts no se pueden ejecutar, escribe el comando como administrador dentro de la powershell el siguiente comando: Set-ExecutionPolicy RemoteSigned -Scope CurrentUser, después de esto, si queremos la mayor seguridad posible, al acabar de utilizar nom podemos escribir: Set-ExecutionPolicy Restricted -Scope CurrentUser

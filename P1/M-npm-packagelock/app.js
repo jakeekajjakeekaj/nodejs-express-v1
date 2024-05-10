@@ -1,0 +1,7 @@
+// PACKAGE-LOCK.JSON
+// Recordemos que en la sección pasada, al instalar express se nos agregó aparte de la carpeta node-modules, se nos creó esta carpeta llamada package-lock.json, para entrar más en definición de la misma se dirá que:
+// Se genera automáticamente cuando npm modifica el árbol de node_modules o package.json, es decir que mantiene un registro de dependencias que necesita nuestro paquete.
+// Este archivo describe el árbol generado para que futuras instlaciones puedan generar exactamente el mismo arbol, de esta manera otros desarrolladores pueden instalar exactamente las mismas dependencias que uno mismo.
+
+// Si nosotros abrimos este archivo, se verá un archivo bastante extenso a pesar de no haberse realizado la gran cosa, aqui dentro veremos por ejemplo todos los paquetes instalados, uno de ellos se puede encontrar ahí, el cual sería express, en donde se registra su versión, url, si es una dependencia de desarrollo.
+// Aquí mismo se el mismo nombre y versión de nuestro package.json, así mismo en lockfileVersion se encuentra la versión del archivo package-lock.json y para finzalizar se encuentra packages el cual asocia la ubicación de cada paquete junto con un objeto con su información detallada.

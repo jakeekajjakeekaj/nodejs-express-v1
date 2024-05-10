@@ -3,3 +3,5 @@ Este es un curso desde 0 para Node JS y Express, Node JS usa básicamente el pro
 D 07-05-2024 H 1-21-08 / 8-29-32
 
 D 08-05-2024 H 2-10-43 / 8-29-32
+
+D 09-05-2024 H 3-31-15 / 8-29-32

@@ -1,0 +1,14 @@
+{
+  "name": "servidor-routers-separados",
+  "version": "1.0.0",
+  "description": "Separando los routers en el mismo servidor pero mejorado",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jakeekajjakekaj",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

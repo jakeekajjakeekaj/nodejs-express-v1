@@ -1,0 +1,14 @@
+{
+  "name": "express-difmethttp",
+  "version": "1.0.0",
+  "description": "Seguimos mejorando el codigo, esta vez provando diferentes metodos http post put patch delete",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jakeekajjakeekaj",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
